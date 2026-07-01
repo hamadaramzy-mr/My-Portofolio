@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,10 +21,10 @@
             </button>
 
             <ul class="nav-links" id="navLinks">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a id="gohome" href="#" class="active">Home</a></li>
+                <li><a id="godown" href="#">About</a></li>
+                <li><a id="godowns" href="#">Projects</a></li>
+                <li><a id="godownc" href="#">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -47,7 +47,187 @@
             </div>
         </div>
     </header>
+         <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-info">
+                    <h4>Who I am?</h4>
+                    <p>  I study at Faculty of Engineering,Helwan University, Computer and system Department.I have passion in writing clean codes and solve programming problems, Now I focus on improving Embedded Systems in addition to control Systems , Web development (Front-End) and programming with C++ and Java.</p>
+                </div>
+              
+                <div class="about-skills">
+                    <h4>Technical Skills</h4>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%"></div>
+                        </div>
+                    </div>
 
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C++ & Embedded Systems</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section-padding bg-light-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-img bg-gradient-2">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5> Fashion Website </h5>
+                        <p>built a full website with HTML and nativ CSS and javascript</p>
+                        <div class="card-badges">
+                            <span class="badge">HTML</span>
+                            <span class="badge">CSS</span>
+                            <span class="badge">JS</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank" class="btn-sm btn-primary">Live</a>
+                            <a href="https://github.com/hamadaramzy-mr/Fashion-Website.git" target="_blank" class="btn-sm btn-dark">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-img bg-gradient-1">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5>Digital Clock</h5>
+                        <p>a digital clock built with ICs and logic gates and simulated on Protues</p>
+                        <div class="card-badges">
+                            <span class="badge">Proteus</span>
+                            <span class="badge">Logic Gates</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank" class="btn-sm btn-primary">Live</a>
+                            <a href="#" target="_blank" class="btn-sm btn-dark">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-img bg-gradient-2">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5> My Portfolio </h5>
+                        <p>built a full website with HTML and nativ CSS and javascript</p>
+                        <div class="card-badges">
+                            <span class="badge">HTML</span>
+                            <span class="badge">CSS</span>
+                            <span class="badge">JS</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank" class="btn-sm btn-primary">Live</a>
+                            <a href="#" target="_blank" class="btn-sm btn-dark">Code</a>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-header-row">
+                <div class="section-header m-0">
+                    <h2 class="section-title">Contact me </h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="theme-switch-wrapper">
+                    <span class="switch-label"> Dark mode</span>
+                    <label class="theme-switch" for="darkModeToggle">
+                        <input type="checkbox" id="darkModeToggle" />
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h4> contact information</h4>
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-envelope"></i> hamadaramzy0@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +20 1029689543</li>
+                        <li><i class="fa-brands fa-linkedin"></i> linkedin.com/in/Mohamed_Ramzy</li>
+                        <li><i class="fa-brands fa-github"></i> github.com/hamadaramzy-mr</li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="userName">Fullname </label>
+                            <input type="text" id="userName" class="form-control" required>
+                            <div class="error-message">Enter your fullname.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="userEmail">E-mail </label>
+                            <input type="email" id="userEmail" class="form-control" required>
+                            <div class="error-message">Please,Enter a correct email.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="userMessage">Message</label>
+                            <textarea id="userMessage" class="form-control" rows="5" required></textarea>
+                            <div class="error-message">Can not send an empty message.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block"> Send message</button>
+                    </form>
+                    <div id="formSuccess" class="alert-success d-none">
+                       Your message is sent successfully!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p> All rights reserved &copy; <span id="footerYear"></span> | Mohamed Ramzy</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
